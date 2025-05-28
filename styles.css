@@ -1,9 +1,9 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
-    color: #E5E7EB;
 }
 
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -33,6 +33,7 @@ a:hover {
     color: #b4b5b7;
 }
 
+/* Hero Section */
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -77,12 +78,44 @@ a:hover {
     max-width: 400px;
 }
 
+/* Info Section */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 300px;
+    padding: 14px 100px;
+    gap: 14px;
+}
+
 .info-header-text {
+    text-align: center;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
 }
+.info-container {
+    flex: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+.info-image {
+    height: 300px;
+    width: 200px;
+    margin-bottom: 12px;
+}
+.info-text {
+    width: 200px;
+    flex-wrap: wrap;
+}
 
+/* Quote Section */
 .quote-background-color {
     color: #E5E7EB;
 }

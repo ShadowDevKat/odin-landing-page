@@ -146,6 +146,15 @@ a:hover {
     color: #1f2937;
 }
 
+/* Cta Section */
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 14px 100px;
+}
+
 /* Footer */
 .footer {
     display: flex;

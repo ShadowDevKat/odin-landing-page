@@ -50,7 +50,8 @@ a:hover {
     max-width: 500px;
 }
 
-.hero-secondary-text,a {
+.hero-secondary-text,
+.footer-text,a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -130,8 +131,7 @@ a:hover {
 /* Footer */
 .footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     padding: 14px 100px;
 }
 

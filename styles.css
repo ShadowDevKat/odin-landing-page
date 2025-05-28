@@ -1,17 +1,17 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
+    color: #E5E7EB;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 14px 0px;
-    background-color: #1f2937;
+    padding: 14px 100px;
 }
 
-.logo {
+.header-logo-text {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
@@ -27,9 +27,91 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: #b4b5b7;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 60px 100px 30px;
+    height: 300px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    max-width: 500px;
+}
+
+.hero-secondary-text,a {
     font-size: 18px;
     color: #E5E7EB;
 }
-a:hover {
-    color: #b4b5b7;
+
+.hero-left {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.hero-left p {
+    max-width: 500px;
+}
+
+.hero-right {
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-image {
+    flex: 1;
+    min-width: auto;
+    max-width: 400px;
+}
+
+.info-header-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote-background-color {
+    color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+/* Common rules */
+.dark-background {
+    background-color: #1f2937;
+}
+button {
+    padding: 6px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+.button-background {
+    background-color: #3882f6;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
 }

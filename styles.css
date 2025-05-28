@@ -83,7 +83,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 300px;
+    height: auto;
     padding: 14px 100px;
     gap: 14px;
 }
@@ -125,6 +125,14 @@ a:hover {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 100px;
 }
 
 /* Common rules */

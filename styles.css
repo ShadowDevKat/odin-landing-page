@@ -1,6 +1,8 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -76,8 +78,7 @@ a:hover {
 }
 .hero-image {
     flex: 1;
-    min-width: auto;
-    max-width: 400px;
+    max-width: 420px;
 }
 
 /* Info Section */
@@ -86,8 +87,8 @@ a:hover {
     flex-direction: column;
     justify-content: flex-start;
     height: auto;
-    padding: 14px 100px;
-    gap: 14px;
+    padding: 14px 100px 50px;
+    gap: 32px;
 }
 
 .info-header-text {
@@ -108,14 +109,15 @@ a:hover {
     align-items: center;
 }
 .info-image {
-    height: 300px;
-    width: 200px;
+    height: 200px;
+    width: 150px;
     margin-bottom: 12px;
     border: 4px solid #3882f6;
     border-radius: 4px;
 }
 .info-text {
     width: 200px;
+    font-size: 18px;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -148,6 +150,7 @@ a:hover {
     font-size: 28px;
     font-weight: 900;
     color: #1f2937;
+    padding-right: 24px;
 }
 
 /* Cta Section */
@@ -195,6 +198,9 @@ button {
     color: #E5E7EB;
     width: 150px;
     border-radius: 10px;
+}
+button:hover {
+    background-color: #2e69c7;
 }
 .button-background {
     background-color: #3882f6;
